@@ -44,16 +44,24 @@ author:
   email:        hello@demon.today
 
 # Google Analytics
-# google_analytics: 
+google_analytics: UA-154331641-1
 
 # Google Tag Manager
 # gtm:
 
 # Yandex Metrika
-# yandex_metrika: 
+yandex_metrika: 61617496
 
-# Disqus comments
-# disqus: 
+# Disqus
+disqus: demon-today
+
+# Content
+future: true
+
+# Feed
+feed_items: 20
+feed_update_period: daily
+feed_update_frequency: 1
 
 # Default values
 defaults:
@@ -75,14 +83,6 @@ defaults:
 collections:
   category_pages:
     output: true
-
-# Content
-future: true
-
-# Feed
-feed_items: 20
-feed_update_period: daily
-feed_update_frequency: 1
 
 # Build settings
 timezone: Europe/Moscow
